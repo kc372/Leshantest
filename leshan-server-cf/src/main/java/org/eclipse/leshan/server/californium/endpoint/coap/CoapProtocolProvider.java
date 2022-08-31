@@ -25,9 +25,9 @@ import org.eclipse.californium.elements.config.Configuration;
 import org.eclipse.californium.elements.config.Configuration.ModuleDefinitionsProvider;
 import org.eclipse.californium.elements.config.SystemConfig;
 import org.eclipse.californium.elements.config.UdpConfig;
+import org.eclipse.leshan.core.endpoint.Protocol;
 import org.eclipse.leshan.server.californium.endpoint.CaliforniumEndpointFactory;
 import org.eclipse.leshan.server.californium.endpoint.CaliforniumProtocolProvider;
-import org.eclipse.leshan.server.endpoint.Protocol;
 
 public class CoapProtocolProvider implements CaliforniumProtocolProvider {
 
